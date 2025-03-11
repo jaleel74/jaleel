@@ -1,0 +1,50 @@
+
+joins:
+
+for the joining of 2 or more tables and displaying them as a single table is known as "joins".
+
+there are different types of joins:
+1.inner join
+2.left join
+3.right join
+4.full join
+5.cross join
+6.self join
+
+1.inner join:
+inner join will display the common information present in both the tables.
+ 
+syntax:
+select columns from table1 inner join table2 on table1.columnname = table2.columnname;
+
+2.left join:
+Returns all records from the left table, and the matched records from the right table
+
+syntax:
+select columns from table1 left join table2 on table1.columnname = table2.columnname;
+ 
+3.Right Join:
+ Returns all records from the right table, and the matched records from the left table
+
+synatx:
+select columns from table1 right join table2 on table1.columnname = table2.columnname;
+
+
+4.full join:
+returns all the records when there is a match in either left or right table 
+ 
+syntax:
+
+select columns from table1 full outer join table2 on table1.columnname = table2.columnname;
+
+
+5.Cross JOIN: Returns all records from both tables
+
+syntax:
+select columns from table1 cross join table2;
+
+6.self join:
+joining a table again with itself is known as 'self join'.
+
+syntax:
+select columns from table1 t1,table1 t2 where condtion;
