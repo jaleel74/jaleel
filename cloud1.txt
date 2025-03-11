@@ -1,0 +1,117 @@
+DIFFERENCES BTW WATERFALL & AGILE MODEL :
+WATERFALL :
+ A Traditional linear approach where the project is divided into distinct phases.each phase must be completed before moving on to the next
+AGILE:
+A more flexible,iterative approach where work is done in small increments or "sprints" typically lasting 1-4 weeks.
+WATERFALL :
+it is less flexible once a phase is completed.changes are difficult to implement after the design phase and any requirements can cause delays or require revisiting earlier phases
+AGILE:
+high flexible and iterative. allowing changes to be made at any point during the development process with new features and adjustments made based on contiouns feedback
+WATERFALL :
+has clear,sequential phases,such as requirement gathering design,coding,testing,and deployment
+AGILE:
+uses sprints or iterations ,with no strict division between phases.each sprint includes planning,design,development,testing and review
+WATERFALL :
+customer feedback is usally gathered only at the beginning and at the end
+AGILE:
+customers are involved throughout the project.providing feedback after each sprint,ensuring that the product evolves to meet their needs.
+WATERFALL :
+the product is delivered at the end of the project after all phases are completed.there is little visibilty of progress until the final delivery
+AGILE:
+delivers incremental progress reugularly (at the end of each sprint).this allows the team to demonstrate working features early on
+WATERFALL :
+testing happens after the development phase,which may lead to discovering issue late in the process,potentially increasing risk.
+AGILE: 
+testing is integrated into eaach sprint,allowing for issues to be identified and resolved quickly.reducing overall project risk
+WATERFALL :
+deadliness are typically fixed and strict and the full scope is defined earlyy in the project.
+AGILE: 
+deadliness can be more flexible as the scope is adjusted based on priority and feedback throughout the project.
+
+
+
+DIFFERENCE BTW SAAS & IAAS &PAAS:
+1.DEFINATION:
+SAAS:
+provides fully fuctional software applications over the internet
+PAAS:
+Provides a platform that allows customers to develop,run and manage applications without the complexity of maintaing infrastructure.
+IAAS:
+Provides virtualized computing resources (e.g servers,storage)over the internet,giving users control over the infrastructure
+2.TARGET USERS:
+SAAS:
+end-users who want to access software with out managing underlying infrastructure.
+PAAS:
+developers and business who want to build and deploy applications.
+IAAS:
+it adminstrators and businesses who need to manager their own infrastructure (e.g compute,storage,networking)
+3.RESPONSIBILITIES :
+SAAS:
+Service provider manages everything(software,infrastructure,updates)
+PAAS:
+service provider manages infrastructure and platform,user manages applications.
+IAAS:
+service provider manages infrastructure ,user manages everything above that (os,apps etc)
+4.EXAMPLES:
+SAAS: 
+Google workspace,microsoft365,drop box
+PAAS:
+google app engine,microsoft azzure app services,heroku.
+IAAS:
+aws,microsoft azure,google cloud engine
+5.CUSTOMIZATION:
+SAAS: 
+Limited customization options since it is ready to usse software
+PAAS: 
+allows more customization in application development  but limits control over the infrastructure
+IAAS: 
+maximum customization,giving users full control over the environment and infrastructure.
+6.MANAGEMENT LEVEL :
+SAAS: 
+managed entirely by the service provider (end to end solution)
+PAAS: 
+managed platform(miidleware,databases,etc)but users handle the apps.
+IAAS: 
+infrastructure is managed by the provider,but users  manage os,software and services on top
+7.COST STRUCTURE:
+SAAS: 
+Subscription based,often based on users or usage.
+PAAS: 
+pay - as-you-go, typically for usage of platform resources (compute,storage)
+IAAS: 
+pay - as-you-go, typically for virtual machines,storage and network usage
+8.EXAMPLES OF USE :
+SAAS: 
+accessing email servicesCRM software or file storage
+PAAS: 
+building custom applications(web or mobile)without managing servers or databases.
+IAAS:
+hosting websites,setting up virtual machines,creating network configurations.
+9.SCALABILITY:
+SAAS: 
+scalable as per user licenses and feature tips
+PAAS: 
+scalable based on the platforms capacity (e.g scaling app performance).
+IAAS:  
+offers extensive scalabilty,allowing users to add or reduce virtual machines,storage etc
+10.MAINTENANCE:
+SAAS: 
+minimal maintenance for the user,provider handles updates and fixes.
+PAAS: 
+user is responsible for the application updates,but platform maintenance is managed by the provider.
+IAAS: 
+user is responsible for all aspects of maintenance,including os updates, patches and security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
