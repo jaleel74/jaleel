@@ -1,0 +1,231 @@
+File Handling:
+The key function for working with files in Python is the open() function.
+
+The open() function takes two parameters; filename, and mode.
+syntax:
+open(filename,mode)
+
+There are four different methods (modes) for opening a file:
+
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+
+"x" - Create - Creates the specified file, returns an error if the file exists
+
+In addition you can specify if the file should be handled as binary or text mode
+
+"t" - Text - Default value. Text mode
+
+"b" - Binary - Binary mode (e.g. images)
+
+Syntax
+To open a file for reading it is enough to specify the name of the file
+
+f = open("demofile.txt",r)
+
+f=open("e:\\users//pasha.txt","rw")
+
+
+f = open("demofile.txt", "rt")
+Because "r" for read, and "t" for text are the default values.
+
+
+
+Open a File on the Server:
+Assume we have the following file, located in the same folder as Python:
+
+demofile.txt
+
+Hello! Welcome to demofile.txt
+This file is for testing purposes.
+Good Luck!
+To open the file, use the built-in open() function.
+
+The open() function returns a file object, which has a read() method for reading the content of the file:
+
+Example
+f = open("demofile.txt", "r")
+print(f.read())
+
+
+If the file is located in a different location, you will have to specify the file path, like this:
+
+Example
+Open a file on a different location:
+
+f = open("D:\\myfiles\welcome.txt", "r")
+print(f.read())
+
+
+Read Only Parts of the File:
+By default the read() method returns the whole text, but you can also specify how many characters you want to return:
+
+Example
+Return the 5 first characters of the file:
+
+f = open("demofile.txt", "r")
+print(f.read(5))
+
+
+
+Read Lines:
+You can return one line by using the readline() method:
+
+Example
+Read one line of the file:
+
+f = open("demofile.txt", "r")
+print(f.readline())
+By calling readline() two times, you can read the two first lines:
+
+Example
+Read two lines of the file:
+
+f = open("demofile.txt", "r")
+print(f.readline())
+print(f.readline())
+
+
+
+Write to an Existing File:
+To write to an existing file, you must add a parameter to the open() function:
+
+"a" - Append - will append to the end of the file
+
+"w" - Write - will overwrite any existing content
+
+Example
+Open the file "demofile2.txt" and append content to the file:
+
+f = open("demofile2.txt", "a")
+f.write("Now the file has more content!")
+f.close()
+
+#open and read the file after the appending:
+f = open("demofile2.txt", "r")
+print(f.read())
+Example
+Open the file "demofile3.txt" and overwrite the content:
+
+f = open("demofile3.txt", "w")
+f.write("Woops! I have deleted the content!")
+f.close()
+
+#open and read the file after the overwriting:
+f = open("demofile3.txt", "r")
+print(f.read())
+
+
+Create a New File
+To create a new file in Python, use the open() method, with one of the following parameters:
+
+"x" - Create - will create a file, returns an error if the file exists
+
+"a" - Append - will create a file if the specified file does not exists
+
+"w" - Write - will create a file if the specified file does not exists
+
+Example
+Create a file called "myfile.txt":
+
+f = open("myfile.txt", "x")
+Result: a new empty file is created!
+
+Example
+Create a new file if it does not exist:
+
+f = open("myfile.txt", "w")
+
+
+
+My Sql:
+relational database management system
+it is supported by Oracle company
+
+
+data base:
+it allows us to organise data in the form of tables(rows & columns)&also indexes
+it is a open source data base software
+it is place where you store data
+MySql,sybase,Oracle,postgre sql,sql server,MongoDB etc
+
+DBMS:
+stands for data base management system,which is used to take care of data base
+relations are not possible to acess the data
+it is a program that stores,retrives and modifies data in the database on request.
+to communicate with DBMS we need one language that is SQL
+with the help of SQL we communicate with DBMS in the form of Query.
+the job of DBMS is not only storing the data but also arranging the data
+
+to arrange the data we have different types of DBMS:
+1.RDBMS:
+stands for Relational Data Base Management System.
+we can store the data in the form of tables & can also map them onto different locations(table)
+it will retrive the data very fastly
+effective handling of operations
+
+2.Non-RDBMS:
+it is similar to DBMS
+we can store the data in key-value pair(j-son format)
+
+
+To create/complete a project we need 3 types of environments:
+1.front-end
+ 
+What users see and interact with
+Includes visual elements like buttons, graphics, and text messages
+Often created by front-end developers who work with clients to create a visually pleasing experience
+Uses languages like HTML, CSS, and JavaScript
+
+
+2.Back end 
+The data and infrastructure that make an application work
+Stores and processes application data
+Includes managing servers and databases
+Often created by back-end developers who work behind the scenes to ensure everything runs smoothly
+Uses languages like Python, PHP, SQL, Java, and ASP.NET
+
+
+
+3.DataBase
+A repository for application data, like usernames, passwords, and emails 
+Can be stored on the same server as the back end, but this is not secure 
+Can be relational, which organizes data into tables with columns and rows 
+Used by back-end developers to create applications that can find and deliver data to the front end 
+
+data base components:
+1.client:perform 1 (or) 2 modules
+2.servers:stores the operation details
+
+data base: 2 ways
+1. CLI :command line interface
+2. GUI :graphical user interface
+
+MySql:
+it is a server which uses the SQL platform.
+MySQL is the underlying technology that stores the data
+
+SQL:
+ SQL is a programming language,which is use to read, modify, and delete that data.
+
+MySQL vs Excel:
+Data structure:
+MySQL organizes data into structured tables with columns and rows, enabling complex relationships between data points, whereas Excel stores data in a simple grid format with cells.
+ 
+Scalability:
+MySQL is built to handle large volumes of data efficiently, while Excel can become slow and cumbersome when dealing with very large datasets. 
+
+User interface:
+Excel has a visual interface with cells that can be easily formatted and manipulated, making it accessible to non-technical users, while interacting with MySQL typically requires writing SQL queries. 
+
+Analysis capabilities:
+While Excel offers basic analysis functions like filtering, sorting, and simple calculations, complex data analysis and manipulation usually require a dedicated query language like SQL used with MySQL.
+ 
+When to use each:
+Excel:
+For quick data analysis, basic reporting, creating charts and graphs, and simple data manipulation on smaller datasets. 
+MySQL:
+For managing large, complex databases, performing complex data queries, and ensuring data integrity with relationships between tables.
