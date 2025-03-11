@@ -1,0 +1,37 @@
+CVCS:
+SVN--> sub version control system
+it consists of only the current version of data but not any previous version data
+
+disadvantages:
+it consits of only current version data
+each & every developer should connect to the server to develop their code
+less security : server can be accessed by every one
+no backup facility (if server is crashed then everything will be lost)
+server/client: server-1,client can be many 
+
+DVCS:
+github : server
+git : client
+
+git is the latest version of svn
+git consists of repositories that means folders
+local repository
+remote repository/global repository
+
+local repository:
+folders that are present/saved in our laptops.
+
+remote/global repository:
+folders that are saved in global form/github(server)
+
+protocols:
+git follows 2 types of protocols
+1.HTTPS: hyper text transfer protocol security
+ex: banking app : otp- security
+2. SSH : secure shell
+
+real time environments:
+1. development : developers - sucess
+2. QA: quality assurance team - sucess
+3. UAT : user acceptance testing - sucess
+4. production: software or application of a project will be deployed to the server
