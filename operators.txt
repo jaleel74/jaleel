@@ -1,0 +1,118 @@
+ASSIGNMENT OPERATORS:
+it performs operations and assigns values to the left operand
+
+LIST OF ASSIGNMENT OPERATORS:
+
+1.ASSIGN(=)
+EX: a,b=3,4
+    print(a)
+
+2.ADD AND ASSIGN(+=)
+EX: a,b=3,4
+    a +=2
+    print(a)
+3.SUBTRACT AND ASSIGN(-=)
+EX: a,b=4,5
+    b -=2
+    print(b)
+4.MULTIPLY AND ASSIGN(*=)
+EX: a,b=6,5
+    a *=3 
+    print(a)
+5.DIVISION AND ASSIGN(/=)
+Ex: a,b=4,3
+    c=a+b
+    a +=2
+    c /=a
+    print(c)
+6.FLOORDIVISION AND ASSIGN(//=)
+EX: a,b=4,3
+    c=a+b
+    a +=2
+    c //=a
+    print(c)
+
+7.MODULE AND ASSIGN(%=)
+EX: a,b=5,6
+     a %=3
+     print(a)
+8.EXPONENT AND ASSIGN(**=)
+EX: a,b=4,3
+    a **=2
+    print(a)
+IDENTITY OPERATORS:
+they are used to compare the object if both the objects are acutually of the same data type and share the same memory location.
+1."is"operator:
+Evaluate to true if the variables on either side of the operator point to the same object and false otherwise
+EX:a=5
+   b=5 
+   print(id(a))
+   print(id(b))
+   print(a is b)
+here,in the given example,both the variables a and b have values 5 assigned to it and both share the same memory location,which is why return true
+2."is not"operator:
+evaluates to true if the variables on either side of the operator point to a different object and false otherwise
+EX:a=5
+   b='5'
+   print(id(a))
+   print(id(b))
+   print(a is not b)
+MEMBERSHIP OPERATORS:
+checks the availabilty or existence of a value in specified sequence.
+a sequence can be strings,lists or tuples.
+in operator:
+it returns true if it finds the specified value in a sequence otherwise false
+ex:str ='pasha'
+   print('s'in str)
+ true
+ num =[10,13,45,54,18]
+ print(25 in num)
+false
+not in operator:
+returns true if the specified value is not in the value of sequence.
+EX: a=5
+    num=[10,23,45,67]
+    print(a is not in num)
+    false
+    str='pasha'
+    print('P'is not in str)
+   true
+BITWISE OPERATORS:
+operated on bits
+list of bitwise operators
+bitwise AND(&):
+returns 1 if both bits are 1,else it returns 0
+ex: a=10
+    b=5
+    print(a&b)
+result:0
+bitwise OR(|):
+returns 1 if any of the bit is 1,else returns 0
+ex:a=10
+   b=5
+   print(a|b)
+result:15
+bitwise NOT(~):
+returns one's compliment of a number
+ex a=10
+  print(~a)
+result:-11
+bitwise XOR(^):
+returns 1 if one the bits is one,else returns 0
+ex:a=10
+   b=9
+   print(a^b)
+ result:3
+bitwise right shift operator(>>):
+shifts the bits of a binary number towards right
+as a consequence it divides the number by 2^N
+ex: a,b=5,4
+    print(a>>2)
+result 1
+bitwise left shift operator(<<):
+shifts the bits of a binary number towards left
+ex: a,b=5,4
+    print(a<<2)
+result : 20
+
+
