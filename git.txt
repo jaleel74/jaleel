@@ -1,0 +1,50 @@
+GIT : 
+global information tracker
+it is mainly responsible for collabration.
+
+It is used for:
+1.Tracking code changes
+2.Tracking who made changes
+3.Coding collaboration
+
+VCS:
+vcs stands for version control system.
+it is a system that records changes to a file (or) set of files over time so that you can recall specific version later.
+it is used to maintain multiple versions of the same file/application.
+A version control system (VCS) tracks changes to files and allows developers to collaborate on projects. 
+
+v1--->v2--->v3--->vn -->history of versions can be stored.
+ ex: phonepay,gpay
+v1--->v2--->v3--->rollback to previous version v2
+here phonepay with version v1 is developed and it is used by customers,later adding new modules and overcoming the drawbacks of version v1 version v2 is developed.again adding new features and to overcome the drawbacks version v3 is developed.here version v3 is not working as expected and having negative feedback from customers so we can rollback to previous version v2 to avoid feed back and in the meantime we can work on drawbacks of version v3.
+
+types:
+1.CVCS: centralized vcs 
+All file versions are stored on a single server.
+Developers can borrow files, make changes, and return them to the server.
+
+2.DVCS: Distributed VCS / decentralized vcs
+Each developer has the entire project history locally.
+This allows for offline work and branching and merging strategies.
+
+functionalities of VCS:
+1.allows multiple developers to work simultaneously
+ex : sbi,hdfc banks 
+loans: gold loan,vehicle,loan,car loan,personal loan,home loan ,banking
+2. it does not allow overwritting
+3. vcs maintain history of every version
+
+VCS vs COLLABORATION:
+Version control systems (VCS) and collaboration are both important for efficient software development and teamwork. 
+
+Version control systems (VCS):
+Track changes to code over time
+Maintain an organized codebase
+Enable multiple developers to work on the same codebase without conflicts
+Provide a history of who changed what and when
+Help recover lost or mistakenly altered data
+
+Collaboration:
+Involves multiple people working together to complete a shared goal
+Requires a problem or potential and a desire to deal with it
+Can involve sharing knowledge and insights
