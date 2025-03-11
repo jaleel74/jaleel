@@ -1,0 +1,140 @@
+ PYTHON:
+it is developed by guido van rossum in the year 1991
+its latest version is 3.12
+it is high level programming language that is widely used in many tasks like web applications,software development,data analysis and software testing,AI & ML etc.,
+it is easy to learn,efficient & can run on many different platforms
+
+HIGH LEVEL LANGUAGE:
+
+it uses either compiler (OR) interpreter to translate the code
+
+lOW LEVEL LANGUAGE:
+
+uses assembler to translate
+
+COMPILER :
+
+it is a translator which is used to translate the code
+it reads each & every line of code
+ex: java
+
+INTERPRETER :
+line by line execution
+ ex:python
+USES OF PYTHON:
+platform independent -- MAC,WINDOWS,LINUX,UBUNTU
+simple syntax
+runs as a interpreter
+faster development
+ 
+TERMINOLOGIES:
+INDENTATION : SPACES
+     if 5>2:
+         printf("5 is greater than 2")
+2. variables :containers -- stores the data/values
+ex: a=10,b=20
+3.comments : unexecuted lines of code 
+ denoted by #
+4. data types : types of input data
+ex:a=10-- int
+a= "jaleel"--string
+a=4.5 -- float value
+a=2+3i--complex
+2= real,&3=imaginary values
+boolean :ture(or) false
+binary :byte
+
+OPERATORS:
+it is used to perform operations 
+1.AIRTHEMATIC
+2.LOGICAL
+3.COMPARSION
+4.ASSIGNMENT
+5.IDENTITY
+6.MEMBERSHIP
+7.BITWISE OPERATORS
+
+1.AIRTHEMATIC 
+ADD:It is used sum 2 or more numbers
+ex :a=100
+    b=200
+    sum =a+b
+    print("sum of two numbers is :",sum)
+sub :difference between 2 or morre numbers
+ex:a=100
+   b=20
+   diff=a-b
+   print("difference of two numbers iS :",diff)
+multiplying: product of two or more numbers
+ex: a=100
+    b=2
+    product=a*b
+    print("product of two numbers is :",product)
+divison :
+ex :a=100
+    b=20
+    div=a/b
+    print("divison of two numbers is :",div)
+floor divison:
+ex:a=100
+   b=20
+   fdiv=a/b
+   print("floordivison of two numbers is :",fdiv)
+modules:
+ex:a=100
+   b=20
+   mod=a%b
+   print("modules of two numbers is :",mod)
+exponent:
+ex:a=2
+   b=3
+   exp=a**b
+   print("exponent of two numbers is :",exp)
+
+2.LOGICAL
+ AND :AND operator returns true if and only if both the inputs are "true" otherwise it returns "false"
+  A   B   Y     
+  T   T   T
+  T   F   F        
+  F   T   F        
+  F   F   F 
+EX:a =true
+   b =true
+   print(a and b)
+ OR : OR operator returns true if any of the input is "true". it returns "false" if both the inputs       are"false"
+  A   B   Y
+  T   T   T
+  T   F   T
+  F   T   T
+  F   F   F
+EX: a=false
+    b=true
+    print(a or b)
+ NOT : NOT operator makes our result as opposite 
+  A   Y 
+  T   F 
+  F   T
+EX: a=false
+    print(not a)
+3.COMPARISON
+equals to (==):returns true if the left operand is equal to right operand
+  ex: a=5
+      print(a==5)
+not equal to (!=):returns true if the left operand is not equal to right operand
+ex: a=6
+    print(a!=7)
+greater than(>):returns true if the left operand is greater than the right operand
+ex:a=5 
+   print(a>4)
+
+lessthan(<):returns true if the left operand is less than the right operand
+ex:a=5
+   print(a<6)
+
+greater than or equal to (>=):returns true if the left operand is greaterthan or equal to the right                                   operand
+ex:a=5
+   print(a>=5)
+
+lessthan or equal to (<=):returns true if the left operand is less than or equal to the right operand
+ex:a=6
+   print(a<=7)
