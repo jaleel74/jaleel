@@ -1,3 +1,3 @@
-cars=["hundai1","kia1","lambo1g"]
+cars=["hundai","kia","lambog"]
 for x in cars:
   print (x)
