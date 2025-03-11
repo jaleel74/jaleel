@@ -1,0 +1,200 @@
+WATERFALL MODEL:
+It is invented by Winston Royce in the year 1970.
+It is a standard and traditional method to develop a new software.
+It is also known as "Linear Sequential Development Model".
+Waterfall model follows cascading structure.
+It has different stages
+Requirement Analysis
+System Design
+Implementation
+Testing
+Deployment
+Maintenance
+1.Requirement Analysis :
+It is nothing but, collection of requirement from customer place. it is done by Business Analyst (or) Product Analyst. where B.A will goes to customer's place and collects the requirement in business language and converts into software language and explains the requirement to Project manager,Architect,Developers,test engineers etc.This complete process is called "Requirement Analysis".
+Here B.A acts bridge between customer & company
+2.Feasibility Study :
+Once after requirement collection is completed then only we go for feasibility study .this is done by a team consists of Project Manager,Architect,Finance Team and HR team.
+This is the stage where company will decide whether to take up the project or not , if we take up the project company will check do we sufficent resources,Technologies and Lab setups.
+3.Design :
+There are two types of design. 
+1.High Level Design : The design of the architecture of the product is called "High Level Design".
+It is done by Architect (or) UI
+2.Low Level Design : The detailed design of smallest feature is called "Low Level Design".
+It is done by senior developer.
+4.Implementation :
+Based on the design document coding (or) implementation will start.
+5.Development :
+Developers will fully frame the structure of the code with proper outcome.
+6.Testing :
+Once after coding is completed the next phase is testing . it is done by test engineers where they test the software according to customer's requirement specification in order to find the defects in the software is called "Testing". If they find any bugs,it will send to developers and developers will fixes that bug and send it to testing team this process will continues until the software is stable.
+7.Installation :
+Once after testing is completed and software is ready,we will install the software in the customer's place so that customers can start to use the software and run the business.
+7.Maintenance :
+Once after the software is installed and customer will start to use the software and run the business,while using the software if customers faces any issues then company will fix the issues for free depending on the agreement between the company & customer . This phase is called "Maintenance".
+LEVELS OF TESTING:
+1.UNIT TESTING : 
+It is also called as " functional testing". 
+testing each and every component thoroughly against customer requirement specification is known as "Unit Testing".
+2.Integration Testing :
+Testing the data flow between the dependent modules is called "Integration Testing".
+3.System Testing :
+It is a level of testing that validates the complete and fully integrated software.
+the purpose of a system testing is to evaluate the end-to-end system specifications.
+4.USER ACCEPTANCE TESTING :
+It is an end to end testing done by end users where they use the software for business for a particular period of time and check whether software is capable of handling real time business scenarios.
+ADVANTAGES OF WATERFALL MODEL:
+simple and easy to understand and use.
+it is easy to maintain
+initial investment is less
+since requirements are not going to change we can expect very good quality of product.
+DISADVANTAGES OF WATERFALL MODEL:
+Can not adopt the changes in the requirement
+rework cost is high
+for bigger and complex projects,this model is not good as risk factor is high
+not suitable for the projects where requirements are changed frequently.
+AGILE METHODOLOGY :
+Ability to respond to the changes
+it is an incremental and iterative process to develop a new software
+we will deliver a piece of software
+PRINCIPLES OF AGILE METHODOLGY:
+The main goal of agile methodology is customer satisfaction by quick delivery of working software.
+customer can change the requirement at any point of development
+customer no need to wait until the whole software is developed.
+delivering the piece of software which contains some functionalities developed & tested.
+ADVANTAGES OF AGILE METHODOLOGY :
+Customer satisfaction is high
+less planning is required
+release will be very short & frequently
+developers and testers will doing lot of meetings at regular intervals in order to improve the quality of product.
+functionalities can be created and tested quickly
+can adopt the changes at any point of stage
+agile model allows for quicker fixes and solutions
+it helps to reduce risk
+DISADVANTAGES OF AGILE METHODOLOGY :
+Not suitable for handling complex dependencies in a project
+knowledge transfer to team members can be difficult since there is very little documentation
+require experienced team members
+difficulty planning
+it is difficulty to maintain projects
+AGILE PROCESS :
+AGILE SPRINT MEETING :
+Sprint meetings in agile are meetings that take place during the scrum framework to plan and review the work done during a sprint.
+SPRINT PLANNING MEETING :
+Sprint planning is an event in scrum that defines what can be delivered in the upcoming sprint and how that work will achieved.
+sprint planning is a meeting conducted by scrum master on the first day of every sprint.
+scrum master will explain the requirement, identify the list of tasks to done and assign task to engineer.
+SPRINT REVIEW MEETING :
+After a sprint,the team demonstrates what they have completed during the "Sprint Review".this is your teams opportunity to showcase their work to stake holders and teammates before it hits production.
+SPRINT RETROSPECTIVE MEETING :
+It is a meeting conducted by scrum master on the last day of every sprint
+DIFFERENT TYPES OF MODELS :
+1.SPIRAL MODEL:
+It is standard procedure to develop a new software
+Spiral model is mainly used when there is a lot of dependency btw the modules/functionalities/features.
+ADVANTAGES :
+requirement changes can be done after every cycle.
+customer gets an opportunity to see the software in every cycle
+testing is done in every cycle before going to next cycle
+spiral model is controlled model when one module is completely stable then only we develop next module
+DISADVANTAGES :
+requirement collections and design phase are not tested
+Is not beneficial for smaller projects.
+spiral may go infinitely
+documentation is more as it has intermediate phases
+it is costly for smaller projects
+2.V &V MODEL :
+V&V stands for verification and validation
+it is a powerful model
+it is a standard procedure to develop a software
+in this all stages are tested 
+VERIFICATION :
+verifying the CRS,SRS,HLD,LLD against the requirement and check whether if it's matching the customer requirement specification or not is called "verification".
+it is done by test engineers before the software is developed.
+VALIDATION :
+testing the functionalities of an application by executing test cases is called "validation".
+it is done by test engineers once the software is developed.
+ADAVANTAGES :
+Total time taken is less
+all stages are tested
+since testing is done in the  initial stage downward flow of defect will be less.
+total investment is less
+software quality will be good
+requirement changes can be done at any stage
+DISADVANTAGES :
+Initial investment is high
+documentation is more
+3. PROTOTYPE MODEL :
+It is also called as "dummy model"
+prototype model is done when client does not have any clarity of requirement, we use this model
+ADVANTAGES :
+Customer will get to know how the software looks in the early stage itself
+there will be improved communication btw customer's & developed
+requirement changes are allowed
+missing functionalities are can be easily figured out 
+errors can be detected much earlier there by saving a lot of effort & cost
+the developed prototype can be reused by developers for other projects in the future
+DISADVANTAGES :
+total time taken is more
+total investment is more
+there will be delay in releasing the software to customer
+poor documentation due to continuously changing the requirement by customer
+ 
+CLOUD :
+It is a huge space with all the services to use and rent
+It provides services like storage,software and data bases over the internet.
+Users can access their data and applications online from any device with an internet connection
+Users pay for the resources they use,rather than buying and maintaining physical hardware
+CLOUD COMPUTING :
+It is an ability (or) place to store your data
+We can process it & access it from anywhere.
+TOP CLOUD PROVIDERS :
+AWS (AMAZON WEB SERIVICE)
+MICROSOFT AZURE
+GCP  (GOOGLE CLOUD PLATFORM)
+ALIBABA CLOUD
+IBM CLOUD
+ORACLE CLOUD
+TENCENT CLOUD
+SALESFORCE
+VMWARE
+KAMATERA
+
+CLOUD COMPUTING TYPES :
+1. SERVICE MODELS : 
+SAAS : Software as  a server
+IAAS : Infrastructure as a server
+PAAS : Platform as a server
+FAAS : Functional as a server
+2. DEPLOYMENT MODEL :
+ PUBLIC CLOUD : 
+A service provider which makes the resources,application,data available to the public over the internet.
+easy & inexpensive to use to setup over the internet
+no wasted resource because it provides the service "pay as u use ".
+ PRIVATE CLOUD :
+It offers hosted services to a limited no of people behind firewall,so it minimizes the security concerns.
+private cloud gives companies direct control over the data
+HYBRID :
+Combination of both public & private cloud.
+COMMUNITY :
+It is sharing cloud. 
+A community cloud in computing is a collaborative effort in which infrastructure is shared between several organizations from a specific community with common concerns.
+A  -> B , A + B Purchases cloud for 1crore and utilizing it by sharing the same cloud.
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
