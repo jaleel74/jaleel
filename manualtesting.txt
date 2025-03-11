@@ -1,0 +1,90 @@
+MANUAL TESTING
+WHAT IS TESTING : 
+Testing is done by testers when once the software is developed by developers according to customer's requirement specification. Developers will send the software to the testing team and testing will start testing the software by executing test cases, this is called "TESTING".
+ WHY DO WE NEED TESTING :
+To ensure the developed software product/project is a very good quality one
+Bug free
+To find the defects in the software
+To check software adaptability
+To avoid extra costs
+To avoid extra risks
+WHAT IS SOFTWARE :
+software is set of codes  written by the programmer to simplify one's particular " business requirement".
+WHAT IS SOFTWARE TESTING :
+The process of finding the bugs in the software.
+Verifying the functionality of an application according to customer's requirement specification.
+Execution of programs with intent to find the defects is called "Software testing".
+NEED FOR SOFTWARE TESTING :
+In order to deliver the software application/project with out any defects.
+To satisfy the requirements of user
+To make developed software more reliable
+In order to avoid the negative feed back
+SOFTWARE QUALITY :
+QUALITY :
+It is defined as justification of all requriment of a customer in an application.
+QUALITY SOFTWARE REASONABLY
+Bug free software
+Satisfying all the requirements of clients
+Delevering the project/product on time 
+Reduce maintenance cost
+Maintainble
+If we develop and deliver it with in budget
+PROJECT VS PRODUCT :
+PROJECT:
+If the software is developed based on the requirement of specific customer then it is called "Project".
+EX : LAKME
+PRODUCT :
+If the  software is developed based on the requirement of multiple customers in the market then it is called "Product".
+EX : SPRITE
+ERROR VS BUG/DEFECT VS FAILURE :
+ERROR :
+It is mistake in the source code (or) Incorrect human action that produces a false output.
+If the developers finds a mismatch in actual and expected behaviour of an application in developing phase,then it is called "Error".
+BUG/DEFECT : 
+It is deviation from the customer's requirement specification
+If the testers finds a mismatch in actual and expected behaviour of an application in testing phase,then it is called "Bug/Defect".
+FAILURE :
+It is a complete deviation from the actual behaviour of an system 
+Multiple issues will lead to failure.
+When end users faces lot of issues will lead to failure.
+If the end users finds a mismatch in actual and expected behaviour of an application in production phase,then it is called "Failure".
+SOFTWARE DEVELOPMENT LIFE CYCLE(SDLC) :
+It is step by step procedure (or) standard procedure to develop a new software
+It has different stages 
+Requirement Analysis
+Feasibilty study
+Design
+Coding 
+Testing
+Installation
+Maintenance
+1.Requirement Analysis :
+It is nothing but, collection of requirement from customer place. it is done by Business Analyst (or) Product Analyst. where B.A will goes to customer's place and collects the requirement in business language and converts into software language and explains the requirement to Project manager,Architect,Developers,test engineers etc.This complete process is called "Requirement Analysis".
+Here B.A acts bridge between customer & company
+2.Feasibility Study :
+Once after requirement collection is completed then only we go for feasibility study .this is done by a team consists of Project Manager,Architect,Finance Team and HR team.
+This is the stage where company will decide whether to take up the project or not , if we take up the project company will check do we sufficent resources,Technologies and Lab setups.
+3.Design :
+There are two types of design. 
+1.High Level Design : The design of the architure of the product is called "High Level Design".
+It is done by Architect (or) UI
+2.Low Level Design : The detailed design of smallest feature is called "Low Level Design".
+It is done by senior developer.
+4.Coding :
+It is nothing but writing the programs.It is done by development engineers where in they implement the software according to the customer requirement specification.
+5.Testing :
+Once after coding is completed the next phase is testing . it is done by test engineers where they test the software according to customer's requirement specification in order to find the defects in the software is called "Testing". If they find any bugs,they will send it to developers and developers will fixes that bug and send it to testing team this process will continues until the software is stable.
+6.Installation :
+Once after testing is completed and software is ready,we will install the software in the customer's place so that customers can start to use the software and run the business.
+7.Maintenance :
+Once after the software is installed and customer will start to use the software and run the business,while using the software if customers faces any issues then company will fix the issues for free depending on the agreement between the company & customer . This phase is called "Maintenance".
+
+
+
+
+
+
+
+
+
+
