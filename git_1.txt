@@ -1,0 +1,3 @@
+git is mainly responsible for collabration
+used to track code base changes
+track who made changes
