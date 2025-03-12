@@ -1,0 +1,1 @@
+repository is collection of files and directories that git track.it can loacal or global repository
