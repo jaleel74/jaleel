@@ -1,0 +1,73 @@
+operating system:
+it is an interface betwen user & computer
+it will provide the environment to create,run and access many applications.
+
+types of operating system:
+1.windows - microsoft - userfriendly 
+2.android o.s - google - mobile applicant
+3.Linux - not related to any company - for IT purpose
+4.Mac o.s - apple - mobile/tab applications
+5.unix - similar to linux
+6.ios - apple - system applications
+
+windows operating system:
+1. it is developed by microsoft company in the year 1985
+2. it is having GUI ( graphical user interface)
+3. it is an userfrienly operating system
+disadvantages:
+1. it is commercially used operating system(paid)
+2. it is a single based operating system -- only one person can use to connect the data
+3. it is very less secure than the other o.s
+4. is is limited to completely personal usage
+
+Linux Operating system:
+--> it is an open source operating system (free of cost)
+1. it is developed by Linus tordvalds in the year 1991
+2. it is an CLI
+3. linux o.s is a type of o.s which is very similar to unix & is built in linux kernal
+4. linux kernal is the brain of the o.s because it is an interface between user & computer (hardware,peripherals,resources)
+5. multiple users can access this o.s
+6. it has very high security features are available when compared with other o.s
+7. Linux is a distributed o.s( 600+ linux distributions like redhat,ubuntu,centos,fedora,amazon linux,kali linux,SUSE linux,..)
+8. it is an community based o.s(we can modify as per our requirements )
+9. it is an user freindly & network friednly o.s
+10.linus provides the privacy of users
+11.it provides high stability (rarely slowsdown & freezes no need to reboot & restart it will be donne itself directly/immediately)
+12.high fliexibility
+13.linux is compatible with large no of files
+14. linux can perform tasks evenly through it is having less space on its hard disk
+15.tree structure
+
+Disadvantages:
+1. it is not much userfreindly because begineers can confuse
+2. it has smaller peripherals
+
+comparison of linux with operating system:
+
+linux:                                                            windows:
+1. open source operating system                                   1. not open source
+2. linux is free of cost                                          2. windows is costlier(paid)
+3. linux is case sensitve                                         3. it is case insensitive
+    PASHA,pasha
+4. more efficient                                                 4. less efficient
+5. more security                                                  5. less security
+6. forward slash is used to separate  the directories             6.back slash is used to separate the files/folders
+7. it is hacking based system                                      7. no efficiency in hacking
+8. 3 types of users:                                              8. 4 types of users:
+  -> regular                                                        -> administration
+  -> root                                                           -> standard
+  -> service account                                                -> child 
+                                                                    -> guest
+
+
+----------
+1.create linux environments (laptops/system/cloud/vmware)
+2. we can instal various applications
+  --> jenkins - CI/CD for deploying
+  --> maven - build tools - building source code
+  --> docker - containerization tool - shipping the code
+  --> tomcat - webserver
+  --> kubernetes - cluster
+  --> sonarqube  - checks the code quality
+  --> ansible    - monitoring
+  
